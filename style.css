@@ -1,0 +1,133 @@
+h1{
+	font-size: 40px;
+	font-family: times;
+	text-align: center;
+}
+
+body{font-size: 12px;
+	font-family: 'gulim','sans-sarif';
+	background-image: url("http://static.naver.net/newsstand/img/20121231/bg_bd.png");
+	overflow: auto;
+	}
+
+#select_box li{
+	float:left;
+	display:block;
+	margin-left: 25px;
+}
+
+a:visited{
+	color:#6e4987;
+}
+
+#select_box a{
+	color: white;
+}
+#select_box a:hover{
+	color: #ff6666;
+}
+
+.frame a{
+	color: #000063;
+}
+.frame a:hover{
+	color: blue;
+}
+
+img{
+	height: 120px;
+	margin: 0, auto;
+	overflow: left;
+}
+strong{
+	float: right;
+}
+
+
+
+#header{
+	/*border: 1px solid #f66;*/
+	height: 60px;
+	margin: 3px;
+}
+#container{
+	position:relative;
+	/*border: 1px solid green;*/
+	padding: 20px;
+	height: 400px;
+	margin: 10px;
+	background-image:url("http://static.naver.net/newsstand/img/20121231/bg_panel.png");
+	background-size: 860px,323px;
+	background-position: center;
+
+}
+#select_box{
+	background-image: url("http://static.naver.net/newsstand/img/20121231/bg_ft.png");
+	height: 30px;
+	padding: 10px;
+	margin: 10px;
+	/*border: 1px solid #f66;*/
+}
+
+div.frame{
+	width: 230px;
+	height: 160px;
+	padding: 10px;
+	border: 1px solid gray;
+}
+
+div.button{
+	width: 140px;
+	height: 70px;
+	/*border: 1px solid #f66;*/
+	background-size: 140px, 70px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#beforeButton{
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	background-image: url("http://postfiles1.naver.net/20131020_144/cpfl300_1382260215209KANca_PNG/image.PNG?type=w2");
+}
+
+#news_frame1{
+	position: absolute;
+	left: 70px;
+}
+#news_frame2{
+	position: absolute;
+	left: 352px;
+}
+#news_frame3{
+	position: absolute;
+	left: 630px;
+}
+
+#news_frame4{
+	position: absolute;
+	top: 235px;
+	left: 200px;
+}
+
+#news_frame5{
+	position: absolute;
+	top: 235px;
+	left: 518px;
+}
+
+#afterButton{
+	position: absolute;
+	top: 200px;
+	right: 0px;
+	background-image: url("http://postfiles3.naver.net/20131020_114/cpfl300_1382260215415TEdfx_PNG/image.PNG?type=w2");
+}
+
+#footer{
+	border: 1px solid #f66;
+	padding: 10px;
+	height: 10px;
+	margin: 3px;
+	text-align: center;
+}
